@@ -1,29 +1,28 @@
 @media (max-width: 400px){
-    h1{
-    font-size: 22px;
+    .row-card h1{
+    font-size: 50px;
 }
 
-h2{
-    font-size: 16px;
+.job-title h2{
+    font-size: 20px;
     display: block;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .profile-picture {
-   display: block;
+   display: inline-block;
    margin: -75px auto 0 auto;
    width: 120px;
    height: 120px;
 
 }
-.row-card{
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-}
 
 .linkedin-container a {
   font-size: 14px;
+}
+
+.card{
+    font-size: 1em;
 }
 
 }
@@ -68,7 +67,7 @@ h1{
 }
 
 h2{
-    font-size: 21px;
+    font-size: 20px;
     display: inline;
 }
 
@@ -87,6 +86,7 @@ header{
 .card{
     color: #9820E3;
     font-size: 1.5em;
+    flex-shrink: 0;
 }
 .ekek{
     width: 75%;
@@ -95,8 +95,19 @@ header{
 .row-card{
     display: flex;
     align-items: center;
-    gap: 80px;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: nowrap;
     white-space: nowrap;
+}
+
+.row-card h1{
+    font-size: 30px;
+    margin: 0;
+    color: #9820E3;
+    flex-shrink: 1;
+    text-overflow: ellipsis;
+
 }
 
 .container-tin{
