@@ -1,1 +1,548 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+   <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+   <meta name="x-apple-disable-message-reformatting">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title>HTML Email Template Project</title>
+   <!--[if mso]>
+      <noscript>
+         <xml>
+            <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+         </xml>
+      </noscript>
+   <![endif]-->
+   <style type="text/css">
+      table {
+			border-spacing: 0;
+         border-collapse: collapse;
+		}
+      td {
+         padding: 0;
+      }
+      p {
+         font-size: 16px;
+      }
+      img {
+         border: 0;
+      }
+      a {
+         text-decoration: none;
+         color: #e8fbfa;
+         font-size: 16px;
+      }
+      .content {
+         line-height: 20px;
+         font-size: 16px;
+      }
 
+      .bluelink {
+         text-decoration: none;
+         color: #1e5d7b !important;
+      }
+
+      span.Object {
+         color: inherit !important;
+      }
+      span.Object-hover {
+         color: inherit !important;
+         text-decoration:none !important;
+      }
+
+      u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+		u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+
+      .ExternalClass {
+         width: 100%;
+      }
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+         line-height: 100%;
+      }
+
+      a[x-apple-data-detectors=true]{
+         color: inherit !important;
+         text-decoration: inherit !important;
+      }
+
+      .column-one-half{
+         color: #5100FF !important;
+         color: #000000 !important;
+      }
+
+      @media screen and (max-width: 599.98px) {
+         .column-wrapper .padding {
+            padding-right: 50px !important;
+            padding-left: 50px !important;
+         }
+         .column-wrapper .column,
+         .column-wrapper .column img {
+            width: 100% !important;
+            max-width: 100% !important;
+         }
+         .column-wrapper {
+            padding: 0 75px !important;
+         }
+         .column-one-third img.one-third-col-img {
+            max-width: 60% !important;
+            padding-top: 15px !important;
+            background-color: transparent !important;
+         }
+         .column-two-third .content {
+            text-align: center !important;
+         }
+         .column-two-third {
+            padding-bottom: 30px !important;
+            background-color: transparent !important;
+         }
+         .column-wrapper .column-one-fourth {
+            width: 150px !important;
+            max-width: 150px !important;
+         }
+         .column-one-fourth .content img {
+            max-width: 120px !important;
+         }
+      }
+      @media screen and (max-width: 499.98px) {
+         .column-wrapper {
+            padding: 0 45px !important;
+             width: 100% !important;
+            max-width: 100% !important;
+         }
+
+         .column-one-half{
+         color: #5100FF !important;
+      }
+      }
+      @media screen and (max-width: 399.98px) {
+         .column-wrapper {
+            padding: 0 20px !important;
+            width: 100% !important;
+            max-width: 100% !important;
+         }
+
+          .column-one-half{
+         color: #5100FF !important;
+      }
+      }
+/*
+      :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, table, .darkmode-bg {
+            background: #2d2d2d !important;
+            color: #ffffff !important;
+         }
+         [data-ogsc] body, table, .darkmode-bg {
+            background: #2d2d2d !important;
+            color: #ffffff !important;
+         }
+         .darkmode-transparent {
+            background-color: transparent !important;
+         }
+         [data-ogsc] .darkmode-transparent {
+            background-color: transparent !important;
+         }
+      }
+*/
+   </style>
+
+	<!--[if mso]>
+		<style type="text/css">
+			body {background-color: #dde0e1 !important;}
+         body, table, td, p, a {font-family: 'Lato', Arial, Helvetica, sans-serif !important;}
+         table {border-spacing: 0 !important;border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body class="body" xml:lang="en" style="margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+   <div style="width: 100%; table-layout:fixed; background-color: #dde0e1; color:#3d3d3d; font-family: 'Lato', Arial, Helvetica, sans-serif; font-size: 16px; margin: 0 auto 40px;">
+      <div style="max-width: 600px; background-color: #fafdfe; color:#3d3d3d; font-family: 'Lato', Arial, Helvetica, sans-serif; font-size: 16px; box-shadow: 0 0 10px rgba(0, 0, 0, .2);margin: 0 auto;">
+
+         <!-- Preheader (remove comment) -->
+         <div style="font-size: 0px; color: #fafdfe; mso-line-height-rule: exactly; line-height: 0px; display: none; max-width: 0px; max-height: 0px; opacity: 0; overflow: hidden; mso-hide:all; text-align: center;">
+            Grab your Tickets now !.
+            <!-- Add Preheader Text Here (85-100 characters in length) -->
+            &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;
+         </div>
+         <!-- End Preheader (remove comment) -->
+
+         <!--[if mso]>
+            <table width="600" align="center" style="border-spacing: 0; border-collapse:collapse; color: #3d3d3d;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+         <table align="center" style="border-spacing:0; border-collapse: collapse; color:#000; font-family: 'Lato', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #000; margin: 0 auto; padding:0; width: 100%; max-width: 600px;" role="presentation">
+
+
+    <!--Header-->
+
+            <tr>
+                <td style="padding: 25px 50px; background-color: #000;">
+                     <a href="https://vibepass.com/" target="_blank"></a>
+                <!-- Light mode logo -->
+      <img src="https://iili.io/FgWHboP.png" alt="logo" style="max-width: 100%; display:block;" width="114" style="margin-left: 30px; max-width: 100%; display:block;" width="114">
+
+
+            </tr>
+
+            </table>
+    <!--Hero Banner-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="margin: 0; padding: 0;">
+        <tr>
+            <td style="padding: 0; border: 0;" cellpadding="0" cellspacing="0">
+                <a href="https://example.com/1" target="_blank"></a>
+                <img src="https://iili.io/FgGAvYN.png" alt="concert preview" width="600" style="max-width: 100%; display: block; height: auto; outline: none; text-decoration: none; ">
+            </td>
+        </tr>
+</table>        
+    <!-- Paragraph -->
+<table width="100%" cellpadding="0" cellspacing="0" style="padding: 0; border-collapse: collapse; max-width: 100%;" role="presentation">
+  <tr style="background-color: #000000;">
+    <td style="background-color:#000000; width:100%; padding: 10px 50px; margin: 0; max-width: 100%;">
+      <p style="font-size:14px; font-family:Arial, Helvetica, sans-serif, Roboto; 
+      text-align:left; color:#ffffff; line-height: 1.5em;">
+        From legendary stadium tours to once-in-a-lifetime shows, VibePass puts you 
+        in the perfect seat — every time. Get front-row access, interactive stadium 
+        maps, and real-time booking, all in one app.<br><br>
+        🎟️ Skip the lines. Choose your vibe.
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+<!-- START TWO COLUMNS -->
+
+    <h2 style="padding: 0 50px; font-family: Roboto, Arial, Helvetica, sans-serif; color: #5100FF;"> Upcoming Concerts – Limited Seats Left!</h2>
+            <tr>
+               <td style="padding: 35px 0 30px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center;">
+
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="233" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 0 45px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <img src="https://i.imghippo.com/files/OpSh9059Z.png" alt="Olivia Rodrigo" width="233px" style="border-radius: 8px; border: 0; max-width: 233px;">
+                                          </td>
+                                       </tr>
+
+                                    <tr>
+                                       <td style="padding: 20px 0 15px 0;">
+                                          <p style="color: #5100FF; font-size: 17px; font-weight: bold; margin: 0;">Olivia Rodrigo</p>
+                                          <p style="font-size: 14px; margin:0;">Sofi Stadium, Los Angeles<br> Aug 10, 2025</p>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <tr>
+                                          <td style="padding-bottom: 41px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left" style="border-radius: 5px;" bgcolor="#5100FF">
+                                                      <a href="https://example.com/9999" target="_blank" style="font-size: 12px; font-weight: bold; text-decoration: none; color: #ffffff; background-color: #5100FF; padding: 14px 80px; border-radius: 5px; display: inline-block; text-align: center;">BOOK NOW</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                       </td>
+                                    </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                           </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 283px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding-right:34px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <img src="https://i.imghippo.com/files/ztZ1455RDg.png" alt="The Weeknd" width="233px" style="border-radius: 8px; border: 0; max-width: 233px;">
+                                          </td>
+                                       </tr>
+
+                                    <tr>
+                                       <td style="padding: 20px 0 15px 0;">
+                                          <p style="color: #5100FF; font-size: 17px; font-weight: bold; margin: 0;">The Weeknd</p>
+                                          <p style="font-size: 14px; margin:0;">Allegiant Stadium, Las Vegas<br> Aug 16, 2025</p>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <tr>
+                                          <td style="padding-bottom: 41px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left" style="border-radius: 5px;" bgcolor="#5100FF">
+                                                      <a href="https://example.com/9999" target="_blank" style="font-size: 12px; font-weight: bold; text-decoration: none; color: #ffffff; background-color: #5100FF; padding: 14px 80px; border-radius: 5px; display: inline-block; text-align: center;">BOOK NOW</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                       </td>
+                                    </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                           <!--[if mso]>
+                           </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 0 45px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <img src="https://i.imghippo.com/files/oeBJ5064Ips.png" alt="Taylor Swift" width="233px" style="border-radius: 8px; border: 0; max-width: 233px;">
+                                          </td>
+                                       </tr>
+
+                                    <tr>
+                                       <td style="padding: 20px 0 15px 0;">
+                                          <p style="color: #5100FF; font-size: 17px; font-weight: bold; margin: 0;">Taylor Swift</p>
+                                          <p style="font-size: 14px; margin:0;">Metlife Stadium, NJ<br> Aug 30, 2025</p>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <tr>
+                                          <td style="padding-bottom: 41px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left" style="border-radius: 5px;" bgcolor="#5100FF">
+                                                      <a href="https://example.com/9999" target="_blank" style="font-size: 12px; font-weight: bold; text-decoration: none; color: #ffffff; background-color: #5100FF; padding: 14px 80px; border-radius: 5px; display: inline-block; text-align: center;">BOOK NOW</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                       </td>
+                                    </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                                                      <!--[if mso]>
+                           </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 283px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding-right:34px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <img src="https://i.imghippo.com/files/nXH8524FY.png" alt="Drake" width="233px" style="border-radius: 8px; border: 0; max-width: 233px;">
+                                          </td>
+                                       </tr>
+
+                                    <tr>
+                                       <td style="padding: 20px 0 15px 0;">
+                                          <p style="color: #5100FF; font-size: 17px; font-weight: bold; margin: 0;">Drake</p>
+                                          <p style="font-size: 14px; margin:0;">Mercedes-Benz Stadium, ATL<br> Sep 2, 2025</p>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <tr>
+                                          <td style="padding-bottom: 41px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left" style="border-radius: 5px;" bgcolor="#5100FF">
+                                                      <a href="https://example.com/9999" target="_blank" style="font-size: 12px; font-weight: bold; text-decoration: none; color: #ffffff; background-color: #5100FF; padding: 14px 80px; border-radius: 5px; display: inline-block; text-align: center;">BOOK NOW</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                       </td>
+                                    </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+
+
+    <!-- Hot tip -->
+    <tr>
+        <td style="padding: 35px 0 30px;"> <!--Padding Vertical -->
+            <table width="100%" style="border-spacing: 0;" role="presentation"> <!--  Standard Table -->
+                <tr >
+                    <td class="column-wrapper" style="padding:0; font-size: 0; text-align: center; background-color: #5100FF; background: linear-gradient(#5100FF,#5100FF);"> <!--Wrapper for media query-->
+
+                        <!--[if mso]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="240px" valign="top" style="padding:0;">
+                        <![endif]-->
+                    <table width="100%" cellpadding="0" cellspacing="0" style="padding: 0; border-collapse: collapse;" role="presentation">
+                            <tr style="background-color: #000;">
+                                <td style="background-color:#5100FF; width:100%; padding: 34px 50px 10px 50px; margin: 0;">
+                                     <p style="font-size:15px; font-family:Arial, Helvetica, sans-serif, Roboto; 
+                                            text-align:center; padding: 0 25px; color:#ffffff;font-weight: bold; margin-bottom: -10px;">
+                                   🔥 Hot Tip: 
+                                    </p>
+                                    <p style="font-size:23px; font-family:Arial, Helvetica, sans-serif, Roboto; 
+                                            text-align:center; padding: 0 25px; color:#ffffff; line-height: 1.2em; font-weight: bold;">
+                                   Tickets for Taylor Swift sell out fast.<br>Get yours now and don't miss the Era.
+                                    </p>
+                          <a href="https://example.com/123" target="_blank" style="font-size: 14px; font-weight: bolder; text-decoration: none; color: #ffffff; background-color: #FF00D4; padding: 15px 15px; border-radius: 5px; display: inline-block; margin: 0 0 39px 45px;">BOOK YOUR SEATS ON VIBEPASS</a>
+                              
+         </td>
+      </tr>
+            </table>
+            </td>
+            
+          
+
+                        <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                        <![endif]-->
+    
+    <!--Footer -->
+
+            <tr>
+               <td class="darkmode-bg" style="background: linear-gradient(#000000, #000000); background-color: #3d3d3d; padding: 0;">
+               <table width="100%" style="border-spacing: 0;" role="presentation">
+               
+                  <tr>
+                     <td style="padding: 1.4px; background: linear-gradient(#000000, #000000); background-color: #21c6b8;"></td>
+                  </tr>
+                  <tr>
+                     <td style="padding: 42px 0 0 14px; color: #ffffff; text-align: center; font-size: 16px;">
+                     
+                        <div class="gmail-blend-screen">
+                           <div class="gmail-blend-difference">
+
+                              <p style="font-size: 10px; margin: 0; text-align: center;">Vibepass, Inc.</p>
+                              <p style="font-size: 10px; color: #ffffff;">1234 Vibe Blvd, Suite 500, Los Angeles, CA 90001</p>
+
+                           </div>
+                        </div>
+
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="padding: 0px 0; color: #ffffff; text-align: center; font-size: 10px;">
+                     
+                        <div class="gmail-blend-screen">
+                           <div class="gmail-blend-difference">
+
+                              <a href="https://example.com/1231" style="font-size: 10px; margin: 0;">www.vibepass.com</a>
+
+                           </div>
+                        </div>
+                        <!--[if mso]>
+                           <div style="font-size: 0; mso-line-height-rule: exactly; line-height: 0; display: none; mso-hide: all;">
+                              &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+                           </div>
+                        <![endif]-->
+
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="padding: 11px 0; color: #ffffff; text-align: center; font-size: 16px;">
+                     
+                        <div class="gmail-blend-screen">
+                           <div class="gmail-blend-difference">
+
+                              <p style="font-size: 10px; margin: 0; padding: 0 50px 0 49px;">
+                              <a href="mailto:email@example.com" style="text-decoration: none; color: #ffffff; color: inherit; font-size: 10px;">You’re receiving this email because you opted in for early access and updates. If you'd like to change your preferences, <a href="google.com" style="color: inherit; font-size: 10px; text-decoration: underline;" title="Subscriber Preferences">update your settings</a> or <a style="color: #ffffff; font-size: 10px;text-decoration:underline;" href="{{UNSUBSCRIBE}}">unsubscribe here.</a> </a>
+                              </p>
+
+                           </div>
+                        </div>
+
+                     </td>
+
+                                       <tr>
+                     <td style="padding: 11px 0; color: #ffffff; text-align: center; font-size: 16px;">
+                     
+                        <div class="gmail-blend-screen">
+                           <div class="gmail-blend-difference">
+
+                           <p style="font-size:10px; font-family:Arial, Helvetica, sans-serif, Roboto; text-align:center; color:#ffffff;">
+                                   Follow the vibe:<br>
+                           <a href="https://example.com/1" target="_blank"><img src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/a14ef44e-fdb2-3a1c-28f4-c1e1043e407a.png" alt="Facebook" width="32" style="border: 0;"></a>
+                           <a href="https://example.com/2" target="_blank"><img src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/55204969-d9cc-9dc9-d3c9-81bec7429833.png" alt="Twitter X" width="32" style="border: 0;"></a>
+                           <a href="https://example.com/3" target="_blank"><img src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/b24e2cfa-e8a2-999a-67d9-5f073f94c3cc.png" alt="YouTube" width="32" style="border: 0;"></a>
+                           <a href="https://example.com/4" target="_blank"><img src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/e3fe30fa-46b2-6bc6-2630-d5f7f07f46ec.png" alt="Instagram" width="32" style="border: 0;"></a>
+                           <a href="https://example.com/5" target="_blank"><img src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/b1325253-f1ec-befd-a7f0-9e9413eb8793.png" alt="Linkedin" width="32" style="border: 0;"></a>
+                                   <br> © 2025 VibePass. All rights reserved.
+                           </div>
+                        </div>
+
+                     </td>
+
+                  </tr>
+                  </table>
+               </td>
+         </tr>
+    <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+         <![endif]-->
+
+         </table>
+      </div>
+      </div>
+
+</body>
+</html>
